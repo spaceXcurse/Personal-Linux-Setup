@@ -21,15 +21,17 @@ sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf
 ```
 * Brightness Settings (Use program Power Manager)
   * (openbox) Change `brightness  --inc` to `xbacklight -inc 2' and 'xbacklight -dec 2'
-  * (BSPSWM) Put #
+  * (BSPWM) Put # on first row of `brightness`
 * To watch pretty much anything, don't forget to change to `glx`from `xrender` in compositor
 ### PROGRAMS & SH8T
-Dew it
+* Dew it
 ```
 sudo pacman -S flatpak
 sudo pacman -S discord spotify thunderbird qbittorrent vlc microsoft-edge-stable
 sudo pacman -S noto-fonts-emoji noto-fonts-cjk
 ```
+* How-to autostart
+ * (openbox) put program name then & i.e discord &
 ### IT'S GAMING TIME MGA BROSKII
 * Enable multilib
 ```
