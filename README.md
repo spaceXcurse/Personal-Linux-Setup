@@ -44,7 +44,7 @@ Include = /etc/pacman.d/mirrorlist
 ```
 sudo pacman -S --needed lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader
 ```
-* Update then execute
+* Update then install wine
 ```
 sudo pacman -Syu
 sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \
