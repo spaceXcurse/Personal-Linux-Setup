@@ -31,7 +31,7 @@ sudo pacman -S discord spotify thunderbird qbittorrent vlc microsoft-edge-stable
 sudo pacman -S noto-fonts-emoji noto-fonts-cjk
 ```
 * How-to autostart
- * (openbox) put program name then & i.e discord &
+  * (openbox) put program name then & i.e discord &
 ### IT'S GAMING TIME MGA BROSKII
 * Enable multilib
 ```
