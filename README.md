@@ -1,2 +1,57 @@
-# Personal-Linux-Setup
-This repo solves the suffering of having to manually type commands to anything needed and important in my setup. That's all.
+## ANYTHING
+This repo was supposed to be for arch-based systems.  Anyways, it is my grand (but not final) solution to resolve my suffering of having to manually type commands to anything needed and important in my arch-based setup (reason is mainly for Archcraft). That's all. Forget the damn title.
+
+## set(TF)up
+### FOR STARTERS
+* Update
+```
+sudo pacman -Syu && yay -Syu
+```
+* To use fonts, put in .fonts
+```
+fc-cache -f -v
+```
+* For firefox pinch-to-zoom
+```
+sudo nano /etc/security/pam_env.conf
+```
+* For inverted touchpad scrolling
+```
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf
+```
+* Brightness Settings (Use program Power Manager)
+  * (openbox) Change `brightness  --inc` to `xbacklight -inc 2' and 'xbacklight -dec 2'
+  * (BSPSWM) Put #
+* To watch pretty much anything, don't forget to change to `glx`from `xrender` in compositor
+### PROGRAMS & SH8T
+Dew it
+```
+sudo pacman -S flatpak
+sudo pacman -S discord spotify thunderbird qbittorrent vlc microsoft-edge-stable
+```
+### IT'S GAMING TIME MGA BROSKII
+* Enable multilib
+```
+/etc/pacman.conf
+--------------------------------------------------------------------------------------
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
+* Install latest GPU driver (Intel)
+```
+sudo pacman -S --needed lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader
+```
+* Update then execute
+```
+sudo pacman -Syu
+sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \
+mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error \
+lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo \
+sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama \
+ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 \
+lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader
+```
+* Ito lang kaya natin mga broskii (yung anime game)
+```
+yay -S an-anime-game-launcher-bin
+```
