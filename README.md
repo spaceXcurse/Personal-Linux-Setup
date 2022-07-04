@@ -22,7 +22,7 @@ sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf
 * Brightness Settings (Use program Power Manager)
   * (openbox) Change `brightness  --inc` to `xbacklight -inc 2' and 'xbacklight -dec 2'
   * (BSPWM) Put # on first row of `brightness`
-* To watch pretty much anything, don't forget to change to `glx`from `xrender` in compositor
+* To watch pretty much anything, don't forget to change to `glx`from `xrender` in `.config/picom.conf`
 ### PROGRAMS & SH8T
 * Dew it
 ```
