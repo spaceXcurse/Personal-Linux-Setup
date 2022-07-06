@@ -27,7 +27,7 @@ sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf
 * Dew it
 ```
 sudo pacman -S flatpak
-sudo pacman -S discord spotify thunderbird qbittorrent vlc microsoft-edge-stable
+yay -S discord spotify thunderbird qbittorrent vlc microsoft-edge-stable
 sudo pacman -S noto-fonts-emoji noto-fonts-cjk
 ```
 * How-to autostart
