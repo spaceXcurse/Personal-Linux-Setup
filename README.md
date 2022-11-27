@@ -14,6 +14,8 @@ fc-cache -f -v
 * For firefox pinch-to-zoom
 ```
 sudo nano /etc/security/pam_env.conf
+MOZ_USE_XINPUT2=1
+MOZ_USE_XINPUT2 DEFAULT=1
 ```
 * For inverted touchpad scrolling
 ```
