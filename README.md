@@ -21,6 +21,14 @@ MOZ_USE_XINPUT2 DEFAULT=1
 ```
 sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf
 ```
+```
+Section "InputClass"
+   Identifier "mytouchpad"
+   Driver "libinput"
+   MatchIsTouchpad "on"
+   NaturalScrolling "true"
+EndSection
+```
 * Brightness Settings (Use program Power Manager)
   * (openbox) Change `brightness  --inc` to `xbacklight -inc 2' and 'xbacklight -dec 2'
   * (BSPWM) Put # on first row of `brightness`
