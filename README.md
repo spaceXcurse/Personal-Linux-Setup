@@ -25,6 +25,12 @@ sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf
   * (openbox) Change `brightness  --inc` to `xbacklight -inc 2' and 'xbacklight -dec 2'
   * (BSPWM) Put # on first row of `brightness`
 * To watch pretty much anything, don't forget to change to `glx`from `xrender` in `.config/picom.conf`
+### GRUB BOOTLOADER CUSTOMIZATION PARA SHEESH
+'''
+git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
+cd Top-5-Bootloader-Themes
+sudo ./install.sh
+'''
 ### PROGRAMS & SH8T
 * Dew it
 ```
