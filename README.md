@@ -35,7 +35,7 @@ sudo ./install.sh
 * Dew it
 ```
 sudo pacman -S flatpak
-yay -S discord spotify thunderbird qbittorrent vlc microsoft-edge-stable
+yay -S discord spotify thunderbird qbittorrent vlc microsoft-edge-stable auto-cpufreq
 sudo pacman -S noto-fonts-emoji noto-fonts-cjk
 ```
 * How-to autostart
