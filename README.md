@@ -29,7 +29,7 @@ Section "InputClass"
    NaturalScrolling "true"
 EndSection
 ```
-* Brightness Settings (Use program Power Manager)
+* Brightness Settings (rc.xml for openbox)
   * (openbox) Change `brightness  --inc` to `xbacklight -inc 2' and 'xbacklight -dec 2'
   * (BSPWM) Put # on first row of `brightness`
 * To watch pretty much anything, don't forget to change to `glx`from `xrender` in `.config/picom.conf`
