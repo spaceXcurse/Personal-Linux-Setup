@@ -39,6 +39,14 @@ git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
 cd Top-5-Bootloader-Themes
 sudo ./install.sh
 ```
+* Static Noise Cancellation par
+```
+cat /sys/module/snd_hda_intel/parameters/power_save
+```
+```
+sudo su
+echo 0 > /sys/module/snd_hda_intel/parameters/power_save
+```
 ### PROGRAMS & SH8T
 * Dew it
 ```
