@@ -26,7 +26,7 @@ Section "InputClass"
    Identifier "mytouchpad"
    Driver "libinput"
    MatchIsTouchpad "on"
-   NaturalScrolling "true"
+   Option "NaturalScrolling" "true"
 EndSection
 ```
 * Brightness Settings (rc.xml for openbox)
