@@ -50,7 +50,7 @@ echo 0 > /sys/module/snd_hda_intel/parameters/power_save
 ### PROGRAMS & SH8T
 * Dew it
 ```
-sudo pacman -S flatpak
+sudo pacman -S flatpak xorg-xbacklight
 yay -S  auto-cpufreq lxappearance discord spotify thunderbird qbittorrent vlc 
 sudo pacman -S noto-fonts-emoji noto-fonts-cjk
 ```
