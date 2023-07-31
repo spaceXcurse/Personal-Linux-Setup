@@ -54,7 +54,7 @@ echo 0 > /sys/module/snd_hda_intel/parameters/power_save
 ### PROGRAMS & SH8T
 * Dew it
 ```
-sudo pacman -S flatpak xorg-xbacklight
+sudo pacman -S flatpak xorg-xbacklight discord qbittorrent vlc tlp
 ```
 yay -S  auto-cpufreq lxappearance discord spotify thunderbird qbittorrent vlc 
 ```
