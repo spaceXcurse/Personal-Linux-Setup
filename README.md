@@ -5,7 +5,11 @@ This repo was supposed to be for arch-based systems.  Anyways, it is my grand (b
 ### FOR STARTERS
 * Update
 ```
-sudo pacman -Syu && yay -Syu
+sudo pacman -Syyu && yay -Syyu
+```
+* Update flatpak
+```
+flatpak update
 ```
 * To use fonts, put in .fonts
 ```
